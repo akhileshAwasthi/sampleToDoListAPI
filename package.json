@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RestFul todolist api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhileshAwasthi/sampleToDoListAPI.git"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "node"
+  ],
+  "author": "Akhilesh Awasthi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhileshAwasthi/sampleToDoListAPI/issues"
+  },
+  "homepage": "https://github.com/akhileshAwasthi/sampleToDoListAPI#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9"
+  }
+}
